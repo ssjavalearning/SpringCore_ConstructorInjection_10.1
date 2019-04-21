@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+	<bean id="student" class="com.suraj.spring.beans.Student">
+		<constructor-arg value="suraj" index="1" />
+		<constructor-arg value="1001" index="0" />
+		<constructor-arg value="kaithal" index="2" />
+	</bean>
+</beans>
